@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Web Sonya</title>
+</head>
+
+<body>
+    <form name="formSatu">
+        <fieldset>
+            <legend>
+                <b><font color="skyblue">Data Input Sonya</font></b>
+            </legend>
+            <table border="0" cellspacing="2" bgcolor="skyblue">
+                <tr>
+                    <td bgcolor="white">NIM:</td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Nama:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Alamat:</td>
+                    <td><input type="text" name="alamat"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Jenis Kelamin:</td>
+                    <td>
+                        <select name="sex">
+                            <option value="perempuan">Perempuan</option>
+                            <option value="laki-laki">Laki-laki</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Agama:</td>
+                    <td>
+                        <input type="radio" name="ag01" value="islam"><font color="white"><b>Islam</b></font><br>
+                        <input type="radio" name="ag01" value="protestan"><font color="white"><b>Protestan</b></font><br>
+                        <input type="radio" name="ag01" value="katolik"><font color="white"><b>Katolik</b></font><br>
+                        <input type="radio" name="ag01" value="budha"><font color="white"><b>Budha</b></font><br>
+                        <input type="radio" name="ag01" value="hindu"><font color="white"><b>Hindu</b></font><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Status:</td>
+                    <td bgcolor="skyblue">
+                        <input type="radio" name="st" value="single"><font color="white"><b>Single</b></font><br>
+                        <input type="radio" name="st" value="married"><font color="white"><b>Married</b></font><br>
+                        <input type="radio" name="st" value="relationship"><font color="white"><b>Relationship</b></font><br>
+                        <input type="radio" name="st" value="complicated"><font color="white"><b>Complicated</b></font><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Hobi:</td>
+                    <td><input type="text" name="hobi"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Peminatan Konsentrasi:</td>
+                    <td>
+                        <select name="peminatan" id="">
+                            <option value="keamanan">Keamanan Informasi</option>
+                            <option value="rpl">Rekayasa Perangkat Lunak</option>
+                            <option value="grafika">Grafika</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td><input type="button" value="Save"></td>
+                <td><input type="button" value="Edit"></td>
+                <td><input type="button" value="Delete" name="hapus"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
